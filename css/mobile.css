@@ -1,0 +1,36 @@
+header {
+    padding: 20px 24px;
+    min-width: 320px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 920px;
+    min-width: 320px;
+}
+
+.page-content .image-container .angry-cat {
+    width: 85%;
+    height: 80%;
+}
+
+.page-content .error-text .error-title {
+    font-size: var(--bigm);
+    margin: 8px;
+}
+
+.page-content .error-text .error-para {
+    margin: 8px;
+}
+
+.page-content .error-text .error-button {
+    margin: 8px;
+    margin-top: 28px;
+}
+
+.my-name {
+    min-width: 320px;
+
+}

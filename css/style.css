@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --white: #ffffff;
+    --bgc: #bdbdbd;
+    --fgc: #333333;
+    --text: ;
+    --button: ;
+    --sm: 1.2rem;
+    --md: 1.6rem;
+    --lg: 2.4rem;
+    --bigm: 48px;
+    --big: 6.4rem;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    width: 100vw;
+    text-align: start;
+    padding: 40px 76px;
+    color: var(--white);
+    background-color: var(--fgc);
+    align-items: center;
+}
+
+header .header-title {
+    font-size: var(--lg);
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 580px;
+    height: 90%;
+    padding: 12px;
+}
+
+.page-content__div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.page-content .image-container {
+    align-items: center;
+}
+
+.page-content .image-container .angry-cat{
+    width: 55%;
+    height: 50%;
+    border-radius: 10%;
+}
+
+
+.page-content .error-text .error-title {
+    font-size: var(--big);
+    font-weight: bold;
+    text-align: left;
+    margin: 10% 25% 20px 0;
+}
+
+.page-content .error-text .error-para {
+    font-size: var(--lg);
+    margin: 20px 55% 20px 0; }
+
+.page-content .error-text .error-button {
+    font-size: var(--md);
+    color: var(--white);
+    background-color: var(--fgc);
+    padding: 20px;
+    border: 1px solid var(--fgc);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-content .error-text .error-button:hover {
+    font-size: var(--md);
+    color: var(--fgc);
+    background-color: var(--bgc);
+    padding: 20px;
+    border: 1px solid var(--fgc);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-name {
+    color: var(--bgc);
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 40px;
+    height: 40px;
+    font-size: var(--sm);
+}
+
+.my-name a {
+    color: var(--bgc);
+    text-decoration: none;
+}
